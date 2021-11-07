@@ -1,7 +1,7 @@
 import React from 'react';
-import { Carousel, Row } from 'react-bootstrap';
-import { Modall, Amplop } from '..';
-import { Parallax, Background } from "react-parallax";
+import { Row } from 'react-bootstrap';
+import { Parallax } from "react-parallax";
+import { Amplop, Modall } from '..';
 
 const Gambar = () => {
 
