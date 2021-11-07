@@ -8,7 +8,6 @@ const Amplop = () => {
             <Row>
                 <Col style={col1}>
                     <Image style={gam} src={gambar} />
-
                 </Col>
             </Row>
         </Container>
