@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container, Image, Modal, Button, Card } from 'react-bootstrap';
-import { AyatAlkitab } from '..';
+import { AyatAlkitab, Mapnya } from '..';
 import { GambarB, GambarTitle } from '../../assets';
 
 function MydModalWithGrid(props) {
@@ -18,6 +18,9 @@ function MydModalWithGrid(props) {
                 </Card>
             </Container>
             <AyatAlkitab />
+            <div style={cardMap}>
+                <Mapnya />
+            </div>
         </Modal>
     );
 }
@@ -40,4 +43,8 @@ const div = {
     alignItems: 'center',
     justifyContent: 'center',
     display: 'flex',
+}
+const cardMap = {
+    height: '500px',
+    alignItems: 'center',
 }
