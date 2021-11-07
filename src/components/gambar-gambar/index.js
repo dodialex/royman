@@ -57,34 +57,34 @@ const GambarGambar = () => {
                     <img src={Photo15} alt='Photo15' />
                 </div>
                 <div>
-                    <img src={Photo17} alt='Photo16' />
+                    <img src={Photo16} alt='Photo16' />
                 </div>
                 <div>
-                    <img src={Photo18} alt='Photo17' />
+                    <img src={Photo17} alt='Photo17' />
                 </div>
                 <div>
-                    <img src={Photo19} alt='Photo18' />
+                    <img src={Photo18} alt='Photo18' />
                 </div>
                 <div>
-                    <img src={Photo20} alt='Photo19' />
+                    <img src={Photo19} alt='Photo19' />
                 </div>
                 <div>
-                    <img src={Photo21} alt='Photo20' />
+                    <img src={Photo20} alt='Photo20' />
                 </div>
                 <div>
-                    <img src={Photo22} alt='Photo21' />
+                    <img src={Photo21} alt='Photo21' />
                 </div>
                 <div>
-                    <img src={Photo23} alt='Photo22' />
+                    <img src={Photo22} alt='Photo22' />
                 </div>
                 <div>
-                    <img src={Photo24} alt='Photo23' />
+                    <img src={Photo23} alt='Photo23' />
                 </div>
                 <div>
-                    <img src={Photo25} alt='Photo24' />
+                    <img src={Photo24} alt='Photo24' />
                 </div>
                 <div>
-                    <img src={Photo1} alt='Photo25' />
+                    <img src={Photo25} alt='Photo25' />
                 </div>
 
             </Carousel>

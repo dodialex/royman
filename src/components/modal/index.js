@@ -1,26 +1,28 @@
 import React, { useState } from 'react';
-import { Container, Image, Modal, Button, Card } from 'react-bootstrap';
+import { Button, Card, Modal } from 'react-bootstrap';
 import { AyatAlkitab, Mapnya } from '..';
-import { GambarB, GambarTitle } from '../../assets';
+import { GambarB, GambarC, GambarTitle } from '../../assets';
 
 function MydModalWithGrid(props) {
     return (
         <Modal {...props} aria-labelledby="contained-modal-title-vcenter">
             <Modal.Header closeButton>
                 <Modal.Title id="contained-modal-title-vcenter">
-                    <img src={GambarTitle} />
+                    <img src={GambarTitle} alt='titleModal' />
                 </Modal.Title>
             </Modal.Header>
             <br />
-            <Container>
-                <Card style={{ width: '100%' }}>
-                    <Card.Img variant="top" src={GambarB} />
-                </Card>
-            </Container>
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={GambarB} />
+            </Card>
             <AyatAlkitab />
+            <Card style={{ width: '100%' }}>
+                <Card.Img variant="top" src={GambarC} />
+            </Card>
             <div style={cardMap}>
                 <Mapnya />
             </div>
+
         </Modal>
     );
 }
