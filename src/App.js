@@ -6,6 +6,7 @@ function App() {
     <div>
       <Lambok />
       {/* <Gambar /> */}
+      <br /> <br />
       <GambarGambarAyam />
       {/* <GambarGambar /> */}
     </div>
