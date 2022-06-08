@@ -16,5 +16,5 @@ function App() {
 export default App;
 
 const bg = {
-  backgroundColor: "#BAE1FF",
+  backgroundColor: "#fedf87",
 };
