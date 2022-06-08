@@ -3,7 +3,7 @@ import { Gambar, GambarGambarAyam, Lambok } from "./components";
 
 function App() {
   return (
-    <div>
+    <div style={bg}>
       <Lambok />
       {/* <Gambar /> */}
       <br /> <br />
@@ -14,3 +14,7 @@ function App() {
 }
 
 export default App;
+
+const bg = {
+  backgroundColor: "#BAE1FF",
+};
