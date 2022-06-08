@@ -1,12 +1,13 @@
 import React from "react";
-import { Gambar, GambarGambar, Lambok } from "./components";
+import { Gambar, GambarGambarAyam, Lambok } from "./components";
 
 function App() {
   return (
     <div>
       <Lambok />
-      {/* <Gambar />
-      <GambarGambar /> */}
+      {/* <Gambar /> */}
+      <GambarGambarAyam />
+      {/* <GambarGambar /> */}
     </div>
   );
 }

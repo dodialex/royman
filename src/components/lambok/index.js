@@ -32,7 +32,7 @@ function Lambok() {
         <Row>
           <Button
             style={btnShoppe}
-            href="https://react-bootstrap.github.io/components/buttons/"
+            href="https://shopee.co.id/now-food/shop/20022469?share=undefined&stm_medium=referral&stm_source=https%3A%2F%2Flinktr.ee%2F-rw"
           >
             <Image src={LogoShoppe} style={imgShoppe} />
             shoppe food
