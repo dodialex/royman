@@ -24,7 +24,7 @@ function Lambok() {
             href="https://grab.onelink.me/2695613898?pid=inappsharing&c=6-C2XFTF2HTYDEJ2&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26sourceID%3DA4pcqCZkS4%26merchantIDs%3D6-C2XFTF2HTYDEJ2&af_force_deeplink=true&af_web_dp=https%3A%2F%2Fwww.grab.com%2Fdownload"
           >
             <Image src={LogoGrab} style={imgGrab} />
-            grabfood
+            Grab Food
           </Button>
         </Row>
 
@@ -35,20 +35,17 @@ function Lambok() {
             href="https://tinyurl.com/AyamBakarTopBintara"
           >
             <Image src={LogoShoppe} style={imgShoppe} />
-            shoppe food
+            Shoppe Food
           </Button>
         </Row>
 
-        {/* <br />
+        <br />
         <Row>
-          <Button
-            style={btnGofood}
-            href="https://react-bootstrap.github.io/components/buttons/"
-          >
+          <Button style={btnGofood} href="https://gofood.link/a/CQTohom">
             <Image src={LogoGofood} style={imgShoppe} />
-            gofood
+            Gofood
           </Button>
-        </Row> */}
+        </Row>
 
         <br />
         <Row>
@@ -57,7 +54,7 @@ function Lambok() {
             href="https://wa.me/6282114912069?text=Hallo%20Ayam%20Bakar%20Top%20Bintara"
           >
             <Image src={LogoWA} style={imgShoppe} />
-            whatsapp
+            Whatsapp
           </Button>
         </Row>
       </Container>
