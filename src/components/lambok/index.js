@@ -39,7 +39,7 @@ function Lambok() {
           </Button>
         </Row>
 
-        <br />
+        {/* <br />
         <Row>
           <Button
             style={btnGofood}
@@ -48,7 +48,7 @@ function Lambok() {
             <Image src={LogoGofood} style={imgShoppe} />
             gofood
           </Button>
-        </Row>
+        </Row> */}
 
         <br />
         <Row>
